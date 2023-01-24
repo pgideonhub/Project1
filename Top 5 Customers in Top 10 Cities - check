@@ -1,17 +1,17 @@
 Here is a SQL query for the top 5 customers in the top 10 cities with inner join, right join and subquery:			
 
 SELECT  B.customer_id, 						
-	      CONCAT (B.first_name,' ',B.last_name) as customer_name, 					
+	CONCAT (B.first_name,' ',B.last_name) as customer_name, 					
       	D.city, 					
-	      E.country,					
-	      SUM(amount) AS total_amount_paid					
+	E.country,					
+	SUM(amount) AS total_amount_paid					
 FROM payment A						
 INNER JOIN customer B ON A.customer_id = B.customer_id						
 INNER JOIN address C ON B.address_id = C.address_id						
 INNER JOIN city D ON C.city_id = D.city_id						
 INNER JOIN country E ON D.country_id = E.country_id						
 RIGHT JOIN						
-  (SELECT C.city,						
+ 	(SELECT C.city,						
 	        D.country,					
 	        COUNT(customer_id) 					
 FROM customer A						
