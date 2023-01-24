@@ -1,4 +1,4 @@
-Her is a SQL query for top 10 films by revenue with inner join: 
+Here is a SQL query for top 10 films by revenue with inner join: 
 
 SELECT  D.film_id, D.title AS film_title,				
         SUM(amount) as total_revenue			
