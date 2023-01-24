@@ -1,4 +1,4 @@
-Here is a SQL query for Top 10 countries by revenue & number of customers		
+Here is a SQL query for Top 10 countries by revenue & number of customers with inner join:		
 
 SELECT  E.country,					
       	SUM(A.amount) AS total_revenue,				
