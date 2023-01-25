@@ -1,4 +1,4 @@
-
+Here is a SQL query of top five customer count by country with inner join and CTE:	
 
 WITH top_five_customers_country_count_cte (customer_id, first_name, last_name, city, country, total_amount_paid) AS
 (SELECT A.customer_id, 
