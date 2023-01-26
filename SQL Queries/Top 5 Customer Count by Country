@@ -1,1 +1,26 @@
+Here is a SQL query of top five customer count by country with inner join and CTE:	
 
+WITH top_five_customers_country_count_cte (customer_id, first_name, last_name, city, country, total_amount_paid) AS
+(SELECT A.customer_id, 
+		A.first_name, 
+		A.last_name, 
+		D.city, 
+		E.country, 
+		SUM(amount) As total_amount_paid
+FROM customer A
+INNER JOIN payment B ON A.customer_id = B.customer_id
+INNER JOIN address C ON A.address_id = C.address_id
+INNER JOIN city D ON C.city_id = D.city_id
+INNER JOIN country E ON D.country_id = E.country_id
+WHERE city IN ('Aurora', 'Atlixco', 'Sintai', 'Adoni', 'Dhule (Dhulia)', 
+	'Kurashiki', 'Pingxiang', 'Sivas', 'Celaya', 'So Leopoldo')
+GROUP BY A.customer_id, A.first_name, A.last_name, D.city, E.country
+ORDER BY SUM(amount) DESC
+LIMIT 5) 
+SELECT country,
+COUNT(top_five_customers_country_count_cte.customer_id) AS all_customer_count, 
+	COUNT(DISTINCT top_five_customers_country_count_cte.customer_id) AS top_customer_count
+FROM top_five_customers_country_count_cte
+GROUP BY 1
+ORDER BY 2 DESC
+LIMIT 5
