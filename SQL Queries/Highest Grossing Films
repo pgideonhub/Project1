@@ -1,6 +1,7 @@
 SQL query to find the top 10 films by revenue using inner join: 
 
-SELECT  D.film_id, D.title AS film_title,				
+SELECT  D.film_id, 
+        D.title AS film_title,				
         SUM(amount) as total_revenue			
 FROM payment A				
 INNER JOIN rental B ON A.rental_id=B.rental_id				
