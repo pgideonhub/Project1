@@ -12,8 +12,9 @@ PostgreSQL sample dataset: [Download DVD Rental Sample Database](https://github.
 
 ## **Project Deliverables**
 
-- Data Dictionary: [Rockbuster Data Dictionary](https://github.com/pgideonhub/rockbuster-analysis/files/10505371/Rockbuster.Data.Dictionary.pdf)
+- [Rockbuster Data Dictionary](https://github.com/pgideonhub/rockbuster-analysis/files/10505371/Rockbuster.Data.Dictionary.pdf)
 
 - Excel Report (summary statistics, SQL queries & outputs
-- Presentation
+- [Rockbuster Presentation.pdf](https://github.com/pgideonhub/rockbuster-analysis/files/10505395/Rockbuster.Presentation.pdf)
+
 - [Tableau Visualization](https://public.tableau.com/app/profile/pauline.gideon/viz/RockbusterVisualization2/Story1?publish=yes)
