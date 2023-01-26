@@ -12,7 +12,7 @@ PostgreSQL sample dataset: [Download DVD Rental Sample Database](https://github.
 
 ## **Project Deliverables**
 
-- Data Dictionary[Rockbuster Data Dictionary.pdf](https://github.com/pgideonhub/rockbuster-analysis/files/10505371/Rockbuster.Data.Dictionary.pdf)
+- Data Dictionary: [Rockbuster Data Dictionary](https://github.com/pgideonhub/rockbuster-analysis/files/10505371/Rockbuster.Data.Dictionary.pdf)
 
 - Excel Report (summary statistics, SQL queries & outputs
 - Presentation
