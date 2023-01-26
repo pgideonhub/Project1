@@ -1,4 +1,4 @@
-Here is a SQL query for revenue by rental duration with inner join:		
+SQL query to find the revenue by rental duration using inner join:		
 
 SELECT rental_duration,					
 	SUM(amount) as total_revenue				
