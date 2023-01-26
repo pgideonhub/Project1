@@ -1,6 +1,6 @@
 # **rockbuster-analysis** 
 
-![image](https://user-images.githubusercontent.com/123508601/214738630-d76ccad4-1fc3-41a1-907a-f3187edd7dc5.png)
+![image](https://user-images.githubusercontent.com/123508601/214738776-c5832f4e-6063-4dab-b0e2-a52d209ea052.png)
 Rockbuster Stealth LLC is a fictitious movie rental company.
 
 ## **Objective**  
