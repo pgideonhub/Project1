@@ -16,4 +16,4 @@ PostgreSQL sample dataset: [Download DVD Rental Sample Database](https://github.
 
 - Excel Report (summary statistics, SQL queries & outputs
 - Presentation
-- Tableau visualization 
+- [Tableau Visualization](https://public.tableau.com/app/profile/pauline.gideon/viz/RockbusterVisualization2/Story1?publish=yes)
