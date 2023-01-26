@@ -1,8 +1,8 @@
-Here is a SQL query for Top 10 cities by revenue with inner join:
+SQL query to find the Top 10 cities by revenue using inner join:
 
 SELECT  city,					
       	country,				
-	      SUM(amount) AS total_revenue 				
+	SUM(amount) AS total_revenue 				
 FROM payment A					
 INNER JOIN customer B ON A.customer_id = B.customer_id					
 INNER JOIN address C ON B.address_id = C.address_id					
