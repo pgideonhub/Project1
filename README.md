@@ -8,5 +8,4 @@ Rockbuster would like to leverage their existing movie licenses to launch an onl
 
 ## **Data**
 
-PostgreSQL sample dataset: Download DVD Rental Sample Database
-[Download DVD Rental Sample Database](https://github.com/pgideonhub/rockbuster-analysis/files/10505049/dvdrental.zip)
+PostgreSQL sample dataset: [Download DVD Rental Sample Database](https://github.com/pgideonhub/rockbuster-analysis/files/10505049/dvdrental.zip)
