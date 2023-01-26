@@ -1,4 +1,4 @@
-Here is a SQL query for top 10 customers by revenue with inner join:				
+SQL query to find the top 10 customers by revenue using inner join:				
 
 SELECT  B.customer_id, 				
     	CONCAT (first_name,' ',last_name) as customer_name, 			
