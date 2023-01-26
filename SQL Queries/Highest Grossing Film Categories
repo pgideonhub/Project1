@@ -1,4 +1,4 @@
-SQL query to find the 10 film categories by revenue using inner join:
+SQL query to find the top 10 film categories by revenue using inner join:
 
 SELECT 	E.name AS category,					
 	SUM(A.amount) as total_revenue				
