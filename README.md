@@ -12,7 +12,6 @@ PostgreSQL sample dataset: [Download DVD Rental Sample Database](https://github.
 
 ## **Project Deliverables**
 
-- SQL queries 
 - Data Dictionary
 - Excel Report
 - Presentation
