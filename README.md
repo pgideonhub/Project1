@@ -13,6 +13,7 @@ PostgreSQL sample dataset: [Download DVD Rental Sample Database](https://github.
 ## **Project Deliverables**
 
 - SQL queries 
-- Tableau visualization 
 - Data Dictionary
 - Excel Report
+- Presentation
+- Tableau visualization 
