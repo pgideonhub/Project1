@@ -1,4 +1,4 @@
-Here is a SQL query of top 10 cities in the top 10 countries by number of customers with inner join, right join and subquery:						
+SQL query to the find the top 10 cities in the top 10 countries by number of customers using inner and right joins and subquery:						
 
 SELECT 	C.city,							
 	D.country,						
