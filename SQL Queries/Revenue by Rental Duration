@@ -1,6 +1,6 @@
 SQL query to find the revenue by rental duration using inner join:		
 
-SELECT rental_duration,					
+SELECT 	rental_duration,					
 	SUM(amount) as total_revenue				
 FROM payment A					
 INNER JOIN rental B ON A.rental_id=B.rental_id					
