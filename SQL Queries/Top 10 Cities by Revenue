@@ -1,4 +1,4 @@
-SQL query to find the Top 10 cities by revenue using inner join:
+SQL query to find the top 10 cities by revenue using inner join:
 
 SELECT  city,					
       	country,				
