@@ -1,6 +1,6 @@
-Here is a SQL query for the top 5 customers in the top 10 cities with inner join, right join and subquery:			
+SQL query to find the top 5 customers in the top 10 cities using inner join, right join and subquery:			
 
-SELECT B.customer_id, 									
+SELECT  B.customer_id, 									
 	CONCAT (B.first_name,' ',B.last_name) as customer_name, 								
 	D.city, 								
 	E.country,								
